@@ -1,0 +1,13 @@
+name: ci-topopt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fenics-dolfinx=0.7.3
+  - petsc=*=real*
+  - numpy=1.23
+  - scipy=1.11
+  - mpi4py
+  - pytest
+  - pip
+  - setuptools

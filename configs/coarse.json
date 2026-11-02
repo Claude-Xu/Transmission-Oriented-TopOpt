@@ -1,0 +1,15 @@
+{
+  "geometry": {
+    "nx": 20,
+    "ny": 20
+  },
+  "optimization": {
+    "max_iter": 60,
+    "beta_interval": 10,
+    "beta_max": 16
+  },
+  "output": {
+    "directory": "results/coarse",
+    "save_every": 60
+  }
+}

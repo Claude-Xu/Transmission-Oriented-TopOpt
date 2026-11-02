@@ -1,0 +1,57 @@
+{
+  "geometry": {
+    "length": 10.0,
+    "nx": 100,
+    "ny": 100,
+    "corner_size": 0.4,
+    "port_half_width": 1.0,
+    "subport_width": 0.35,
+    "passive_frame": true,
+    "frame_width": 0.2
+  },
+  "material": {
+    "young": 40.0,
+    "poisson": 0.45,
+    "penalty": 3.0,
+    "epsilon": 1e-06
+  },
+  "huhu": {
+    "alpha": 2e-06
+  },
+  "newton": {
+    "rtol": 1e-07,
+    "atol": 1e-09,
+    "max_it": 80,
+    "min_step": 1e-05,
+    "max_step": 0.025,
+    "min_j": 1e-08
+  },
+  "loading": {
+    "stroke": 1.0,
+    "fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "gain": 1.0
+  },
+  "optimization": {
+    "max_iter": 400,
+    "volume_fraction": 0.5,
+    "initial_density": 0.5,
+    "energy_bound": 1.5,
+    "filter_radius": 0.25,
+    "move": 0.03,
+    "beta_init": 1.0,
+    "beta_max": 64.0,
+    "beta_interval": 50,
+    "design_tolerance": 0.0001,
+    "constraint_tolerance": 0.0001,
+    "objective_tolerance": 1e-06
+  },
+  "output": {
+    "directory": "results/inverter",
+    "save_every": 10
+  }
+}

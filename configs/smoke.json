@@ -1,0 +1,20 @@
+{
+  "geometry": {
+    "nx": 20,
+    "ny": 20
+  },
+  "loading": {
+    "stroke": 0.2,
+    "fractions": [
+      0.5,
+      1.0
+    ]
+  },
+  "optimization": {
+    "max_iter": 2
+  },
+  "output": {
+    "directory": "results/smoke",
+    "save_every": 1
+  }
+}
